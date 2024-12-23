@@ -4,8 +4,8 @@ import numpy as np
 import matplotlib.pyplot as plt
 
 # Load models
-clf_model = joblib.load("Classification_randomforest.pkl")
-reg_model = joblib.load("optimized_xgb_model.pkl")
+clf_model = joblib.load("Weather-Forecasting/Classification_randomforest.pkl")
+reg_model = joblib.load("Weather-Forecasting/optimized_xgb_model.pkl")
 
 # Title and description
 st.title("🌦️ Weather Prediction App")
